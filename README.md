@@ -98,6 +98,9 @@ Replace `rect(5, 30, 70, 70)` with `square(5, 30, 70)` and run your code.
 
 **What’s going on here? What might `x, y, size` mean?**
 
+The shape does not change as the recatangle had 70,70 as it's size, which would make it a square.
+x and y define the position along the x and y axis, size is the actual size of the shape.
+
 **Add a comment above your function saying what the inputs and outputs of your
 function are (name, description, data type) and what your functions does.** You
 should add a comment like this to every function you write.
@@ -121,7 +124,7 @@ function house(x, y) {
 ## Tasks
 
 1. Change `draw` to use the new `house` function.
-2. Change `draw` to show a `hous at the position of the mouse pointer.
+2. Change `draw` to show a `house` at the position of the mouse pointer.
 3. Change `draw` to show a row of three houses.
 4. Change your `house` function so it needs `width` and `height` as well as `x`
    any `y`
