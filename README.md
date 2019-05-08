@@ -190,9 +190,9 @@ function calculateTaxAmount(income, taxRate) {
 
 **What might each section mean?**
 
-- `function`: ...
-- `calculateTaxAmount`: ...
-- `income, taxRate`: ...
+- `function`: declares that a function will be used
+- `calculateTaxAmount`: function that calculates your taxes
+- `income, taxRate`: insert your income and the taxrate, the function will use these numbers to calculate
 
 All together, that line is describes most of the function’s **signature**. The
 signature is the **name** of the function, its **inputs**, and its **outputs**.
@@ -230,7 +230,11 @@ function setup() {
 
 ### Expected Output
 
+9
+
 ### Actual Output
+
+9
 
 ### Different? Why?
 
@@ -245,7 +249,11 @@ function setup() {
 
 ### Expected Output
 
+12
+
 ### Actual Output
+
+12
 
 ### Different? Why?
 
@@ -263,7 +271,11 @@ function setup() {
 
 ### Expected Output
 
+3, but not sure
+
 ### Actual Output
+
+3
 
 ### Different? Why?
 
@@ -281,7 +293,11 @@ function setup() {
 
 ### Expected Output
 
+10
+
 ### Actual Output
+
+10
 
 ### Different? Why?
 
@@ -299,11 +315,17 @@ function setup() {
 
 ### Expected Output
 
+boop is good
+
 ### Actual Output
+
+boop is good
 
 ### Different? Why?
 
 **What does return mean in JavaScript?**
+
+it returns a value of the function instead of executing the function
 
 # Part 5
 
@@ -338,6 +360,8 @@ step by step, as if you were the computer.
 
 **Run the code and see what happens. Was your prediction accurate? If not,
 why?**
+
+it is a ball moving from right to left, bouncing off the canvas edges, as predicted
 
 Replace the section that causes the ball to bounce with this:
 
